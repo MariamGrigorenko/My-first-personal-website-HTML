@@ -1,12 +1,41 @@
+/*Tags*/
 body {
-  background-color: #F9F7F7;
-  color: #112D4E;
+  background-color: #FCDEC0;
+  color: #7D5A50;
 }
 
 hr {
-  border-color: #DBE2EF;
-  border-style: dotted;
-  border-width: 10px;
+  border-color: #E5B299;
+  border-style: dashed;
+  border-width: 5px;
   border-bottom-style: none;
-  width: 5%;
+  width: 10%;
 }
+
+h1 {
+  color: #B4846C;
+}
+
+h3 {
+  color: #B4846C;
+}
+
+/*Classes*/
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.Profilbild:hover {
+  background-color: #B4846C;
+  border-radius: 100%;
+}
+
+.text-container {
+  text-align: center;
+  margin: 20px;
+}
+
+/*.text {
+  text-align: center;
+}*/
